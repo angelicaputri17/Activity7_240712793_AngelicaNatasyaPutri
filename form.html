@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservation Hotel Room</title>
+    <link rel="stylesheet" href="desain.css"> 
+</head>
+<body>
+
+<h2><strong>Reservation Hotel Room</strong></h2>
+
+<form action="#" method="post">
+    <fieldset>
+        <legend><strong>Personal Data</strong></legend>
+        <table>
+            <tr>
+                <td>1. Name</td>
+                <td><input type="text" name="name" /></td>
+            </tr>
+            <tr>
+                <td>2. Gender</td>
+                <td><input type="text" name="gender" /></td>
+            </tr>
+            <tr>
+                <td>3. Email Address</td>
+                <td><input type="text" name="email" /></td>
+            </tr>
+            <tr>
+                <td>4. Telp Number</td>
+                <td><input type="text" name="telp" /></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend><strong>Reservation Room Form</strong></legend>
+        <table>
+            <tr>
+                <td>1. Reservation Name</td>
+                <td><input type="text" name="reservation_name" /></td>
+            </tr>
+            <tr>
+                <td>2. Booking Date</td>
+                <td><input type="date" name="booking_date" /></td>
+            </tr>
+            <tr>
+                <td>3. Room Type</td>
+                <td>
+                    <select name="room_type">
+                        <option>Deluxe</option>
+                        <option>Superior</option>
+                        <option>Standard</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>4. Bed Type</td>
+                <td>
+                    <select name="bed_type">
+                        <option>Single bed</option>
+                        <option>Double bed</option>
+                        <option>King size</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>5. Breakfast</td>
+                <td>
+                    <input type="radio" name="breakfast" value="With Breakfast" /> With Breakfast
+                    <input type="radio" name="breakfast" value="Without Breakfast" /> Without Breakfast
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend><strong>Payment</strong></legend>
+        <table>
+            <tr>
+                <td>1. Check in date</td>
+                <td><input type="date" name="checkin" /></td>
+            </tr>
+            <tr>
+                <td>2. Check out date</td>
+                <td><input type="date" name="checkout" /></td>
+            </tr>
+            <tr>
+                <td>3. Payment Method</td>
+                <td>
+                    <select name="payment_method">
+                        <option>Cash</option>
+                        <option>Credit Card</option>
+                        <option>Debit</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <br>
+    <input type="submit" value="Submit" />
+</form>
+
+</body>
+</html>
